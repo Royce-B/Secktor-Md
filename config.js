@@ -7,16 +7,16 @@ global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
 global.email = 'gas@secktor.live'
-global.github = 'https://github.com/GasComIT/Secktor-Md'
+global.github = 'https://github.com/codezone2/Secktor-Md-1'
 global.location = 'Nakuru NVS'
-global.gurl = 'https://instagram.com/gascomit' // add your username
-global.sudo = process.env.SUDO || '254718241545'
-global.devs = '254718241545';
-global.website = 'https://github.com/GasComIT/Secktor-Md'
+global.gurl = 'https://instagram.com/code.lab2' // add your username
+global.sudo = process.env.SUDO || '254711107992'
+global.devs = '254711107992';
+global.website = 'https://github.com/codezone2/Secktor-Md-1'
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
   botname: process.env.BOT_NAME || 'Secktor',
-  ownername:process.env.OWNER_NAME || 'GasComIT',
+  ownername:process.env.OWNER_NAME || 'Malik',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
